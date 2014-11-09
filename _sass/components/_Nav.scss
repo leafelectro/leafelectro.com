@@ -1,0 +1,15 @@
+.Nav {
+    width: 90%;
+    margin: 0;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.Nav-Item {
+    display: inline-block;
+    padding: 6px 1%;
+}
+
+.Nav-Item:last-of-type {
+    padding-right: 0;
+}

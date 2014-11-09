@@ -1,0 +1,42 @@
+.Page {
+
+}
+
+$top_shelf_shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+
+.Page-Header {
+    .top-shelf & {
+        position: relative;
+        z-index: 2;
+        -webkit-box-shadow: $top_shelf_shadow;
+                box-shadow: $top_shelf_shadow;
+    }
+}
+
+.Page-TopShelf {
+    background: #7bc8f3 url(/img/topshelf.png) -260px no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+$widest_threshold: 1140px;
+
+.Page-Wrapper {
+    width: $widest_threshold;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: $widest_threshold) {
+    .Page-Wrapper {
+        width: 100%;
+    }
+}
+
+.Page-Main {
+    .top-shelf & {
+        position: relative;
+        z-index: 2;
+        -webkit-box-shadow: $top_shelf_shadow;
+                box-shadow: $top_shelf_shadow;
+    }
+}
