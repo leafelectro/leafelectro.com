@@ -1,0 +1,26 @@
+{
+  "name": "leafelectro.com",
+  "version": "0.0.0",
+  "homepage": "https://github.com/leafelectro/leafelectro.com",
+  "description": "Leaf's Official Website",
+  "keywords": [
+    "leaf",
+    "electro",
+    "music"
+  ],
+  "authors": [
+    "Leaf"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
