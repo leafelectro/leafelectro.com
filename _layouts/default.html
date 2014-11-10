@@ -2,12 +2,21 @@
 <html>
     {% include head.html %}
     <body class="Page {% if page.topshelf %}top-shelf{% else %}no-top-shelf{% endif %}">
+        <script>
+            document.body.setAttribute('unresolved', 'true');
+        </script>
         {% include header.html %}
         <div class="Page-Main">
-            <div class="Page-Wrapper">
+            <div class="Page-Wrapper cf">
                 {{ content }}
             </div>
+            {% include footer.html %}
         </div>
-    {% include footer.html %}
+
+    <script>
+        setTimeout(function() {
+            document.body.setAttribute('resolved', 'true');
+        }, 1);
+    </script>
     </body>
 </html>

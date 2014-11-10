@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -209,4 +210,17 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+body[unresolved] {
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+}
+
+body[resolved] {
+    opacity: 1;
+    -webkit-transition: opacity ease-in 0.2s;
+       -moz-transition: opacity ease-in 0.2s;
+            transition: opacity ease-in 0.2s;
 }
