@@ -23,7 +23,7 @@
         var pathname = window.location.pathname;
         pathname = pathname.substring(0, pathname.length - 1);
 
-        if (pathname == '') {
+        if (pathname == '' or '/leafelectro.com') {
             pathname = '{{ site.baseurl }}/';
         }
         dropdown.value = pathname;
