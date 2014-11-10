@@ -3,14 +3,22 @@
 }
 
 .Nav-List {
-    width: 90%;
     margin: 0;
     text-align: right;
+    width: 67%;
+    padding-right: 2%;
+}
+
+.Nav-List--Social {
+    margin: 0;
+    text-align: right;
+    padding-left: 2%;
 }
 
 .Nav-Dropdown-Container {
     display: none;
     padding: 0 4%;
+    width: 30%;
 }
 
 .Nav-Dropdown {
@@ -26,8 +34,13 @@
     padding: 28px 15px;
 }
 
-.Nav-Item.is-selected {
+.Nav-Item--Social a {
+    padding: 28px 5px;
+}
 
+.Nav-Item--Text {
+    position: relative;
+    top: 2px;
 }
 
 .Nav-Item.is-selected a {
@@ -44,7 +57,7 @@
     padding-right: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .Nav-Dropdown-Container {
         display: table-cell;
     }
@@ -53,3 +66,16 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 450px) {
+    .Nav-Dropdown-Container {
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .Nav-Dropdown-Container {
+        width: 58%;
+    }
+}
+
