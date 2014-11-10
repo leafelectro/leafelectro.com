@@ -4,15 +4,25 @@
             <div class="Header-Height Header-Logo Logo left v-center-parent bold">
                 <div class="v-center"><img src="{{ site.baseurl }}/img/leaf-title.png" srcset="{{ site.baseurl }}/img/leaf-title.png 1x, {{ site.baseurl }}/img/leaf-title@2x.png 2x" alt="Leaf"></div>
             </div>
-            <div class="Header-Height Header-Nav right v-center-parent">
-                <ul class="Nav v-center">
-                    <li class="Nav-Item"><a href="{{ site.baseurl }}/">News</a></li><!--
-                 --><li class="Nav-Item"><a href="{{ site.baseurl }}/music">Music</a></li><!--
-                 --><li class="Nav-Item"><a href="{{ site.baseurl }}/news">Merch</a></li><!--
-                 --><li class="Nav-Item"><a href="{{ site.baseurl }}/news">Elite Fans</a></li><!--
-                 --><li class="Nav-Item"><a href="{{ site.baseurl }}/news">FAQ</a></li><!--
-                 --><li class="Nav-Item"><a href="{{ site.baseurl }}/about" class="last">About</a></li>
+            <div class="Header-Height Header-Nav Nav right v-center-parent">
+                <ul class="Nav-List v-center">
+                    <li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/">Blog</a></li><!--
+                 --><li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/music">Music</a></li><!--
+                 --><li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/news">Merch</a></li><!--
+                 --><li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/news">Elite Fans</a></li><!--
+                 --><li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/news">FAQ</a></li><!--
+                 --><li class="Nav-Item js-nav-item"><a href="{{ site.baseurl }}/about" class="last">About</a></li>
                 </ul>
+                <div class="Nav-Dropdown-Container v-center">
+                  <select class="Nav-Dropdown js-nav-dropdown">
+                    <option value="{{ site.baseurl }}/">Blog</option>
+                    <option value="{{ site.baseurl }}/music">Music</option>
+                    <option value="{{ site.baseurl }}/news">Merch</option>
+                    <option value="{{ site.baseurl }}/news">Elite Fans</option>
+                    <option value="{{ site.baseurl }}/news">FAQ</option>
+                    <option value="{{ site.baseurl }}/about">About</option>
+                  </select>
+                </div>
             </div>
         </div>
     </div>

@@ -17,6 +17,26 @@
         setTimeout(function() {
             document.body.setAttribute('resolved', 'true');
         }, 1);
+        var dropdown = document.getElementsByClassName('js-nav-dropdown')[0];
+        var navItems = document.getElementsByClassName('js-nav-item');
+
+        var pathname = window.location.pathname;
+        pathname = pathname.substring(0, pathname.length - 1);
+
+        if (pathname == '') {
+            pathname = '{{ site.baseurl }}/';
+        }
+        dropdown.value = pathname;
+
+        for (i = 0, len = navItems.length; i < len; i++) {
+            if (navItems[i].firstChild.getAttribute('href') == pathname) {
+                navItems[i].className = navItems[i].className + ' is-selected';
+            };
+        };
+
+        dropdown.onchange = function() {
+            window.location = this.value;
+        };
     </script>
     </body>
 </html>

@@ -1,12 +1,24 @@
 .Nav {
+
+}
+
+.Nav-List {
     width: 90%;
     margin: 0;
     text-align: right;
 }
 
+.Nav-Dropdown-Container {
+    display: none;
+    padding: 0 4%;
+}
+
+.Nav-Dropdown {
+    width: 100%;
+}
+
 .Nav-Item {
     display: inline-block;
-
 }
 
 .Nav-Item a {
@@ -14,6 +26,30 @@
     padding: 28px 15px;
 }
 
+.Nav-Item.is-selected {
+
+}
+
+.Nav-Item.is-selected a {
+    font-weight: bold;
+    cursor: default;
+    color: $text-color;
+}
+
+.Nav-Item.is-selected a:hover {
+    text-decoration: none;
+}
+
 .Nav-Item:last-of-type a {
     padding-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .Nav-Dropdown-Container {
+        display: table-cell;
+    }
+
+    .Nav-List {
+        display: none;
+    }
 }
