@@ -38,6 +38,16 @@
     padding: 24px 5px;
 }
 
+.Nav-Item--Social img {
+    border-radius: 3px;
+    opacity: 0.85;
+}
+
+.Nav-Item--Social a:hover img {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+
 .Nav-Item--Text {
     position: relative;
     top: 2px;
