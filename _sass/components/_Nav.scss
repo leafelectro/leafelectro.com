@@ -23,6 +23,10 @@
 
 .Nav-Dropdown {
     width: 100%;
+    background: white;
+    height: 32px;
+    border-color: lighten($brand-color, 30%);
+    font-size: 14px;
 }
 
 .Nav-Item {
@@ -83,7 +87,7 @@
     }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 670px) {
     .Nav-Dropdown-Container {
         width: 58%;
     }

@@ -59,6 +59,21 @@ $widest_threshold: 1140px;
     padding-left: 2%
 }
 
+@media screen and (max-width: 670px) {
+    .Page-Main-Alpha {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    .Page-Main-Beta {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+}
+
 .Page-Footer {
     /* 400px offset + reasonable padding */
     padding-bottom: 500px;
