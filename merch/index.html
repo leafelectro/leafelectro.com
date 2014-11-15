@@ -2,39 +2,19 @@
 layout: default
 topshelf: false
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-<p>
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-</p>
+<div class="cf">
+    <div class="Page-Main-Half Page-Main-Half--Left">
+        <a target="_blank" href="http://www.redbubble.com/people/leafelectro/works/12924795-leaf-level-1">
+            <img class="margin-b-30" src="{{ site.baseurl }}/img/redbubble-level-1.jpg" alt="Level 1 T-shirt">
+            <p class="text-center">Buy it on RedBubble!</p>
+      </a>
+      <p class="text-center">Many sizes and colors available</p>
+    </div>
+    <div class="Page-Main-Half Page-Main-Half--Right">
+        <a target="_blank" href="http://www.redbubble.com/people/leafelectro/works/12924795-leaf-level-1">
+            <img class="margin-b-30" src="{{ site.baseurl }}/img/redbubble-level-1.jpg" alt="Level 1 T-shirt">
+            <p class="text-center">Buy it on RedBubble!</p>
+      </a>
+      <p class="text-center">Many sizes and colors available</p>
+    </div>
 </div>

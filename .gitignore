@@ -1,5 +1,5 @@
 _site/
 .sass-cache/
 bower_components/
-.__*
+._*
 local-ip.txt

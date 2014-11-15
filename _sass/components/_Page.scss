@@ -71,7 +71,34 @@ $widest_threshold: 1140px;
         float: none;
         padding: 0;
     }
+}
 
+.Page-Main-Half {
+    width: 50%;
+}
+
+.Page-Main-Half--Left {
+    float: left;
+    padding-right: 2%;
+}
+
+.Page-Main-Half--Right {
+    float: right;
+    padding-left: 2%
+}
+
+@media screen and (max-width: 670px) {
+    .Page-Main-Half--Left {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    .Page-Main-Half--Right {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
 }
 
 .Page-Footer {
