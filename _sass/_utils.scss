@@ -15,6 +15,10 @@
     *zoom: 1;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .v-center-parent {
     display: table;
 }
@@ -24,6 +28,30 @@
     vertical-align: middle;
 }
 
+.list-style-none {
+    list-style-type: none;
+}
+
 .bold {
     font-weight: bold;
+}
+
+.margin-l-0 {
+    margin-left: 0;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
+.margin-l-10 {
+    margin-left: 10px;
+}
+
+.margin-l-5 {
+    margin-left: 5px;
 }

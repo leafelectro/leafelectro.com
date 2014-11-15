@@ -1,0 +1,33 @@
+.Social img {
+    border-radius: 3px;
+    opacity: 0.85;
+}
+
+.Social a:hover img {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+
+.Social--Small img {
+    width: 20px;
+}
+
+.Social--Small a:hover img {
+    box-shadow: none;
+    opacity: 1;
+}
+
+a.Social--Remix {
+    background: #666;
+    font-size: 13px;
+    color: white;
+    padding: 2px 5px 3px 4px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    opacity: 0.85;
+}
+
+a.Social--Remix:hover {
+    text-decoration: none;
+    opacity: 1;
+}
